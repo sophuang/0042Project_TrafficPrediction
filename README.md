@@ -5,6 +5,8 @@ d03_text_station_day_2023_01.txt: https://pems.dot.ca.gov/?dnode=Clearinghouse&t
 
 d03_text_meta_2023_03_01.txt: https://pems.dot.ca.gov/?dnode=Clearinghouse&type=meta&district_id=3&submit=Submit
 
+Hecne, absolute paths are used in R script. For reproducing the code, please change the path.
+
 The cleaned data is stored in Data file
 
 2. 0042_Project_Data_Cleaning.R is the R script for data preprocessing and cleaning
