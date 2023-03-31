@@ -5,7 +5,7 @@
 ####------0.1 Importing data------
 #import Janurary Data
 getwd()
-volume01 <-  read.delim("./Data/Cleaned Data/station_day/d03_text_station_hour_2023_01.txt",
+volume01 <-  read.delim("./Data/Raw Data/station_day/d03_text_station_hour_2023_01.txt",
                         sep=",", header=FALSE)
 #pick freeway 5
 volume01_fwy5 <- volume01[volume01$V4 == '5',]
@@ -353,7 +353,7 @@ volume01_df_no<- volume01_df[complete.cases(volume01_df),]
 
 
 #output cleaned data without null
-write.csv(volume01_df_no, "/Users/apple/Desktop/0042 Spatial and temporal analysis and data mining/traffic_volume_df_no.csv", row.names=FALSE)
+write.csv(volume01_df_no, "/Data/Clean Data/traffic_volume_df_no.csv", row.names=FALSE)
 
 
 
