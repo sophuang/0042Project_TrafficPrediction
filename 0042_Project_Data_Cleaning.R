@@ -38,7 +38,7 @@ volume01_fwy5_18 <- volume01_fwy5[grepl(weeks[17],volume01_fwy5$V1),]
 volume01_fwy5_19 <- volume01_fwy5[grepl(weeks[18],volume01_fwy5$V1),]
 volume01_fwy5_20 <- volume01_fwy5[grepl(weeks[19],volume01_fwy5$V1),]
 volume01_fwy5_21 <- volume01_fwy5[grepl(weeks[20],volume01_fwy5$V1),]
-volume01_fwy5_22 <- volume01_fwy5[grepl(weeks[21],volume01_fwy5$V1),]
+volume01_fwy5_33 <- volume01_fwy5[grepl(weeks[21],volume01_fwy5$V1),]
 
 
 volume01_fwy5_23 <- volume01_fwy5[grepl(weeks[22],volume01_fwy5$V1),]
@@ -93,7 +93,7 @@ count = count +24
 volume01_fwy5_4 <- volume01_fwy5_4 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:24){
-    volume01_df[i,j+count] = volume01_fwy5_4[volume01_fwy5_4$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_4[volume01_fwy5_4$V2==volume01_df$ID[i],4][j]
   }
 }
 
@@ -102,7 +102,7 @@ count = count +24
 volume01_fwy5_5 <- volume01_fwy5_5 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_5[volume01_fwy5_5$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_5[volume01_fwy5_5$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -112,7 +112,7 @@ count = count +24
 volume01_fwy5_6 <- volume01_fwy5_6 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_6[volume01_fwy5_6$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_6[volume01_fwy5_6$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -121,7 +121,7 @@ count = count +24
 volume01_fwy5_7 <- volume01_fwy5_7 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_7[volume01_fwy5_7$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_7[volume01_fwy5_7$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -130,7 +130,7 @@ count = count +24
 volume01_fwy5_8 <- volume01_fwy5_8 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_8[volume01_fwy5_8$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_8[volume01_fwy5_8$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -139,7 +139,7 @@ count = count +24
 volume01_fwy5_9 <- volume01_fwy5_9 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_9[volume01_fwy5_9$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_9[volume01_fwy5_9$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -148,7 +148,7 @@ count = count +24
 volume01_fwy5_10 <- volume01_fwy5_10 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_10[volume01_fwy5_10$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_10[volume01_fwy5_10$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -157,7 +157,7 @@ count = count +24
 volume01_fwy5_11 <- volume01_fwy5_11 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_11[volume01_fwy5_11$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_11[volume01_fwy5_11$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -166,7 +166,7 @@ count = count +24
 volume01_fwy5_12 <- volume01_fwy5_12 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_12[volume01_fwy5_12$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_12[volume01_fwy5_12$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -175,7 +175,7 @@ count = count +24
 volume01_fwy5_13 <- volume01_fwy5_13 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_13[volume01_fwy5_13$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_13[volume01_fwy5_13$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -184,7 +184,7 @@ count = count +24
 volume01_fwy5_14 <- volume01_fwy5_14 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_14[volume01_fwy5_14$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_14[volume01_fwy5_14$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -193,7 +193,7 @@ count = count +24
 volume01_fwy5_15 <- volume01_fwy5_15 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_15[volume01_fwy5_15$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_15[volume01_fwy5_15$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -202,7 +202,7 @@ count = count +24
 volume01_fwy5_16 <- volume01_fwy5_16 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_16[volume01_fwy5_16$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_16[volume01_fwy5_16$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -211,7 +211,7 @@ count = count +24
 volume01_fwy5_17 <- volume01_fwy5_17 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_17[volume01_fwy5_17$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_17[volume01_fwy5_17$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -220,7 +220,7 @@ count = count +24
 volume01_fwy5_18 <- volume01_fwy5_18 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_18[volume01_fwy5_18$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_18[volume01_fwy5_18$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -229,7 +229,7 @@ count = count +24
 volume01_fwy5_19 <- volume01_fwy5_19 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_19[volume01_fwy5_19$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_19[volume01_fwy5_19$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -238,7 +238,7 @@ count = count +24
 volume01_fwy5_20 <- volume01_fwy5_20 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_20[volume01_fwy5_20$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_20[volume01_fwy5_20$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -247,7 +247,7 @@ count = count +24
 volume01_fwy5_21 <- volume01_fwy5_21 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_21[volume01_fwy5_21$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_21[volume01_fwy5_21$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -256,7 +256,7 @@ count = count +24
 volume01_fwy5_22 <- volume01_fwy5_22 %>% select(c(1,2,10))
 for(i in 1:172){
   for(j in 1:25){
-    volume01_df[i,j+count] = volume01_fwy5_22[volume01_fwy5_22$V2==volume01_df$ID[i],3][j]
+    volume01_df[i,j+count] = volume01_fwy5_22[volume01_fwy5_22$V2==volume01_df$ID[i],5][j]
   }
 }
 
@@ -346,11 +346,9 @@ for(i in 1:172){
 #output cleaned data with null
 write.csv(volume01_df, "/Users/apple/Desktop/0042 Spatial and temporal analysis and data mining/traffic_volume_df.csv", row.names=FALSE)
 
-#delete null rows
-
-volume01_df_no<- volume01_df[complete.cases(volume01_df),]
-
-
+#replace null with -1
+volume01_df_no <- volume01_df
+volume01_df_no[is.na(volume01_df_no)] <- -1
 
 #output cleaned data without null
 write.csv(volume01_df_no, "/Data/Clean Data/traffic_volume_df_no.csv", row.names=FALSE)
