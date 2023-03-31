@@ -4,7 +4,8 @@
 
 ####------0.1 Importing data------
 #import Janurary Data
-volume01 <-  read.delim("/Users/apple/Desktop/0042 Spatial and temporal analysis and data mining/station_day/d03_text_station_hour_2023_01.txt",
+getwd()
+volume01 <-  read.delim("./Data/Cleaned Data/station_day/d03_text_station_hour_2023_01.txt",
                         sep=",", header=FALSE)
 #pick freeway 5
 volume01_fwy5 <- volume01[volume01$V4 == '5',]
